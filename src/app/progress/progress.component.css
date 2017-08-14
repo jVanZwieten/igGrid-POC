@@ -1,0 +1,11 @@
+.progress-outer{
+    background: rgb(71,113,165);
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-inner{
+    background: rgb(0,224,26);
+    border-radius: 5px;
+    height: 10px;
+}

@@ -1,0 +1,122 @@
+.ui-widget-header-ui-dragable{
+    background: rgba(0, 0, 0, 0.7);
+    height: 30px;
+    border: 0px;
+}
+
+.ui-widget-content{
+    color: rgb(210, 215, 223);
+    font-size: .8em;
+}
+
+span.ui-iggrid-headertext{
+    font-size: .65em;
+    color: rgb(210, 215, 223);
+}
+
+.ui-iggrid .ui-iggrid-header, .ui-iggrid table th {
+    padding: 0px 0px 2px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.ui-iggrid th{
+    height: 0px;
+    margin: 0px;
+    line-height: .65em;
+}
+
+.ui-iggrid-headertable{
+    margin: 5px 0px 0px 0px;
+}
+
+tr.ui-ig-record.ui-iggrid-groupedrow{
+    background: #f4bd0c;
+    font-weight: bold;
+}
+
+.ui-ig-record{
+    background: #f7f7f7;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.ui-iggrid tr.ui-ig-altrecord {
+    background-color: #e3e3e3;
+}
+
+.ui-iggrid td.ui-state-active, .ui-iggrid .ui-ig-altrecord td.ui-state-active{
+    background: rgba(0, 0, 0, 0.7);
+    color: rgb(210, 215, 223);
+    border: 0px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+.ui-iggrid td.ui-state-hover, .ui-iggrid .ui-ig-altrecord td.ui-state-hover{
+    background: rgba(0, 0, 0, 0.7);
+    color: rgb(210, 215, 223);
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+}
+
+
+.ui-iggrid .ui-iggrid-footer, .ui-iggrid .ui-iggrid-toolbar{
+    background: rgb(23,53,93);
+    color: rgb(210, 215, 223);
+    padding: 5px;
+    line-height: 1.4em;
+}
+
+.ui-iggrid th, .ui-iggrid th.ui-state-default{
+    border-right: 1px solid black;
+    padding: 0px 0px 0px 4px;
+    line-height: 1em;
+    height: 18px;
+}
+
+.ui-iggrid-headercell-featureenabled .ui-iggrid-headertext{
+    line-height: 1em;
+    padding: 3px 0px 0px 0px;
+}
+
+.ui-iggrid-indicatorcontainer{
+    margin: 0px;
+    height: 18px;
+}
+
+.ui-iggrid th.ui-state-active{
+    background: rgb(18,121,174);
+}
+
+/*filter dialog*/
+.ui-dialog .ui-dialog-titlebar{
+    background: rgb(15,35,62);
+    font-size: .85em;
+    color: rgb(210, 215, 223);
+}
+
+.ui-widget-header .ui-icon{
+    color: rgb(210, 215, 223);
+}
+
+.ui-iggrid .ui-widget-content.ui-dialog, .ui-dialog .ui-dialog-buttonpane{
+    background: rgb(23,53,93);
+    border: 0px;
+}
+
+.ui-state-error, .ui-widget-content .ui-state-error{
+    color: rgb(210, 215, 223);
+}
+
+.ui-igedit-container{
+    height: 23px;
+}
+
+input.ui.button{
+    padding: 0px 0px;
+}
+
+.ui-iggrid-groupedcolumnlabel{
+    background: #f4bd0c;
+}

@@ -1,0 +1,12 @@
+<div>
+    <ig-grid [widgetId]="gridId" [width]="width" [height]="height" [defaultColumnWidth]="defaultColumnWidth" [autoCommit]="autoCommit"
+        [virtualization]="virtualization" [virtualizationMode]="virtualizationMode" [autofitLastColumn]="autofitLastColumn" [autoGenerateColumns]="autoGenerateColumns"
+        [features]="features" [dataSource]="data" [primaryKey]="primaryKey" [changeDetectionInterval]="'100000'" (cellRightClick)="cellRightClick($event)">
+
+        <column [key]="'index'" [headerText]="'Index'" [hidden]="'true'" [dataType]="'number'"></column>
+        <column [key]="'IndustrySector'" [headerText]="'IndustrySector'" [dataType]="'string'" [width]="'200'"></column>
+        <column [key]="'IndustryGroup'" [headerText]="'IndustryGroup'" [dataType]="'string'" [width]="'200'"></column>
+        <column [key]="'SectorType'" [headerText]="'SectorType'" [dataType]="'string'" [width]="'200'"></column>
+        <column [key]="'KRD'" [headerText]="'KRD'" [dataType]="'nuymber'" [width]="'100'"></column>
+        <column [key]="'MarketNotion'" [headerText]="'MarketNotion'" [dataType]="'number'" [format]="'currency'" [width]="'100'"></column>
+    </ig-grid>
