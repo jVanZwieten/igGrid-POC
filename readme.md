@@ -1,4 +1,7 @@
-Purpose: to showcase a few features of the Infragistics igGrid, including:
+# igGrid Proof of Concept #
+
+## Purpose: ##
+Showcase a few features of the Infragistics igGrid, including:
 1. support for Angular
 2. use of custom formula calculated summaries, on each group-by level and grand total
 3. group-by (dragging columns into the group-by area to group rows by dimensions)
@@ -8,7 +11,7 @@ Purpose: to showcase a few features of the Infragistics igGrid, including:
 7. rows respond to right-click and expose the record and cell clicked
 
 
-Installation:
+## Installation: ##
 
 Please note that NPM will be required to install the necessary packages.
 1. install NPM: https://www.npmjs.com/
@@ -19,7 +22,7 @@ Please note that NPM will be required to install the necessary packages.
 This should host the POC locally and open up your default browser to it.
 
 
-Source code guide:
+## Source code guide: ##
 
 * The meat and potatoes of how to work the igGrid is located in app/app.component.ts.
 * The custom styling is done in ig/financial.css
